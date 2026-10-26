@@ -1,0 +1,9 @@
+[package]
+name = "somnia-high-velocity-ai"
+version = "1.0.0"
+edition = "2021"
+authors = ["Martin Luther <martinlutherupa1@gmail.com>"]
+description = "64-bit invariant Game of Life high-TPS stress harness"
+license = "MIT"
+
+[dependencies]

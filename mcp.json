@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "somnia-high-velocity-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "HACKATHON_TRACK": "Somnia Network",
+        "PROJECT_TICKER": "SOMVEL"
+      },
+      "tools": [
+        {
+          "name": "verify_somvel_invariants",
+          "description": "Verifies deterministic invariants for Somnia High-Velocity AI on Somnia Network."
+        },
+        {
+          "name": "execute_somvel_action",
+          "description": "Executes authenticated Infrastructure state transition."
+        }
+      ]
+    }
+  }
+}
